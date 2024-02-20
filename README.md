@@ -2,14 +2,6 @@
 
 This Java program generates a Sierpinski triangle pattern and writes it to a file. The main components of the program include importing necessary classes, defining the main class `triangleSierpenski`, and implementing its methods. The generation of the Sierpinski Triangle is based on the principle that it's essentially the Pascal triangle taken modulo 2, as discussed in this paper: [Pascal's Triangle and Modulo Prime Powers](https://arxiv.org/pdf/1708.07429.pdf#:~:text=Pascal's%20triangle%20is%20a%20well,is%20considered%20modulo%20prime%20powers). In this representation, even numbers are considered "spaces" and odd numbers "1".
 
-
-## Imports
-
-- `java.io.FileWriter`: For writing character files.
-- `java.io.BufferedWriter`: For writing text to an output stream, buffering characters to provide efficient writing.
-- `java.io.IOException`: To handle input/output errors.
-- `java.math.BigInteger`: To handle large integer calculations.
-
 ## Class Definition: `triangleSierpenski`
 
 ### Main Method
